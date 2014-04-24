@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Wellness and Prevention - New developer introduction</title>
+
+		<meta name="description" content="Wellness and Prevention - New developer introduction">
+		<meta name="author" content="Daniel Mendez">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/wnp.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Welcome</h1>
+					<h4>Wellness and Prevention</h4>
+					 <h4>New developer introduction</h4>
+					<p>
+						<small>Created by Daniel Mendez</small>
+					</p>
+				</section>
+
+
+				<section>
+				    <h3>What do you need <br/> to know?</h3>
+				    <ul>
+				        <li>"Our Credo"</li>
+				        <li>Our people</li>
+				        <li>Our business</li>
+				        <li>Our docs</li>
+				        <li>Our freedoms</li>
+				        <li>Yourself</li>
+				    </ul>
+				</section>
+				
+				
+				<section>
+				    <section>
+				    <h3>Our Credo Values</h3>
+				    <p>The values that guide our decision making are spelled out in Our Credo. Put simply, Our Credo challenges us to put the needs and well-being of the people we serve first.</p>
+                    </section>
+                    <section>
+                        <p>Robert Wood Johnson, former chairman from 1932 to 1963 and a member of the Company’s founding family, crafted Our Credo himself in 1943, just before Johnson & Johnson became a publicly traded company. This was long before anyone ever heard the term “corporate social responsibility.” Our Credo is more than just a moral compass. We believe it’s a recipe for business success. The fact that Johnson & Johnson is one of only a handful of companies that have flourished through more than a century of change is proof of that.</p>
+                    </section>
+                    <section>
+                        <img src="http://www.jnj.com/sites/default/files/images/JnJ-Our-Credo-700.jpg" alt="JnJ credo at headquarters">
+                        <a href="http://www.jnj.com/about-jnj/jnj-credo">http://www.jnj.com/about-jnj/jnj-credo</a>
+                    </section>
+                </section>				
+				
+				<section>
+				    <h3>Our people</h3>
+				    <p class="fragment">At the cooler.</p>
+				    <p class="fragment">At their desk.</p>
+				    <p class="fragment">At your energy break.</p>
+				</section>
+				
+				<section>
+				    <h3>Our business</h3>
+				    <p class="fragment">What programs do we offer?</p>
+				    <p class="fragment">What else do we do?</p>
+				</section>
+				
+				<section data-background="#415a62" style="color:white;">
+				    <h3 style="color:white;">Our docs</h3>
+				    <p>Where to find documentation?
+				        <br>
+				        <a class="fragment" href="https://wiki.healthmedia.com">wiki.healthmedia.com</a>
+				    </p>
+				    <p class="fragment">New team member &amp; FAQ.</p>
+				    <p class="fragment">Dev coding standards.</p>
+				    <p class="fragment">How to contribute to the FAQ?</p>
+				</section>
+				
+				<section>
+				    <h3>Our freedoms</h3>
+				    <p class="fragment">Free to share ideas.</p>
+				    <p class="fragment">Free to volunteer.</p>
+				    <p class="fragment">Free to speak up <br><small>(When opinions differ.)</small></p>
+				</section>
+				
+				<section>
+				    <h3>Yourself</h3>
+				    <p class="fragment">Your goals.</p>
+				    <p class="fragment">Your areas for improvement.</p>
+				</section>
+				
+				<section>
+					<h2>THE END</h2>
+					<h3>Questions?</h3>
+				</section>
+
+			</div> 
+            <!-- END div class="slides" -->
+		</div>
+        <!-- END div class reveal-->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+//					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+//					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+//					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+//					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
